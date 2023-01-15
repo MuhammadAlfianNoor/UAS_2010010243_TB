@@ -108,6 +108,7 @@ public class PengisianKRS extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("APLIKASI INPUT KRS");
+        setBackground(new java.awt.Color(204, 204, 255));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -205,7 +206,7 @@ public class PengisianKRS extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tabelKrs);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 350, 910, 127));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, 910, 127));
 
         btProfilMahasiswa.setBackground(new java.awt.Color(153, 255, 51));
         btProfilMahasiswa.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -217,7 +218,7 @@ public class PengisianKRS extends javax.swing.JFrame {
         });
         getContentPane().add(btProfilMahasiswa, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 170, -1, 43));
 
-        btSimpan.setBackground(new java.awt.Color(0, 153, 51));
+        btSimpan.setBackground(new java.awt.Color(255, 255, 255));
         btSimpan.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btSimpan.setText("Simpan");
         btSimpan.addActionListener(new java.awt.event.ActionListener() {
@@ -227,7 +228,7 @@ public class PengisianKRS extends javax.swing.JFrame {
         });
         getContentPane().add(btSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 100, -1, 43));
 
-        btEdit.setBackground(new java.awt.Color(0, 153, 51));
+        btEdit.setBackground(new java.awt.Color(255, 255, 255));
         btEdit.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btEdit.setText("Edit");
         btEdit.addActionListener(new java.awt.event.ActionListener() {
@@ -237,7 +238,7 @@ public class PengisianKRS extends javax.swing.JFrame {
         });
         getContentPane().add(btEdit, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 100, 80, 43));
 
-        btHapus.setBackground(new java.awt.Color(153, 153, 255));
+        btHapus.setBackground(new java.awt.Color(255, 255, 255));
         btHapus.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btHapus.setText("Hapus");
         btHapus.addActionListener(new java.awt.event.ActionListener() {
@@ -247,7 +248,7 @@ public class PengisianKRS extends javax.swing.JFrame {
         });
         getContentPane().add(btHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 100, 110, 43));
 
-        btbatal.setBackground(new java.awt.Color(255, 255, 153));
+        btbatal.setBackground(new java.awt.Color(255, 255, 255));
         btbatal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btbatal.setText("Batal");
         btbatal.addActionListener(new java.awt.event.ActionListener() {
@@ -257,7 +258,7 @@ public class PengisianKRS extends javax.swing.JFrame {
         });
         getContentPane().add(btbatal, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 170, 90, 43));
 
-        btKeluar.setBackground(new java.awt.Color(153, 204, 255));
+        btKeluar.setBackground(new java.awt.Color(255, 255, 255));
         btKeluar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btKeluar.setText("Keluar");
         btKeluar.setToolTipText("");

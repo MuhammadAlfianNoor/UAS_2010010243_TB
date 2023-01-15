@@ -192,7 +192,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 810, 148));
 
-        tbTambah.setBackground(new java.awt.Color(0, 51, 51));
+        tbTambah.setBackground(new java.awt.Color(255, 255, 255));
         tbTambah.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         tbTambah.setText("Tambah Data");
         tbTambah.addActionListener(new java.awt.event.ActionListener() {
@@ -202,7 +202,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
         });
         getContentPane().add(tbTambah, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 270, -1, -1));
 
-        tbSimpan.setBackground(new java.awt.Color(0, 153, 51));
+        tbSimpan.setBackground(new java.awt.Color(255, 255, 255));
         tbSimpan.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         tbSimpan.setText("Simpan");
         tbSimpan.addActionListener(new java.awt.event.ActionListener() {
@@ -212,7 +212,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
         });
         getContentPane().add(tbSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 110, 40));
 
-        tbEdit.setBackground(new java.awt.Color(0, 255, 51));
+        tbEdit.setBackground(new java.awt.Color(255, 255, 255));
         tbEdit.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         tbEdit.setText("Edit");
         tbEdit.addActionListener(new java.awt.event.ActionListener() {
@@ -222,7 +222,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
         });
         getContentPane().add(tbEdit, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 320, 110, 40));
 
-        tbHapus.setBackground(new java.awt.Color(204, 255, 0));
+        tbHapus.setBackground(new java.awt.Color(255, 255, 255));
         tbHapus.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         tbHapus.setForeground(new java.awt.Color(102, 51, 0));
         tbHapus.setText("Hapus");
@@ -233,7 +233,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
         });
         getContentPane().add(tbHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, 100, 40));
 
-        tbBatal.setBackground(new java.awt.Color(255, 255, 0));
+        tbBatal.setBackground(new java.awt.Color(255, 255, 255));
         tbBatal.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         tbBatal.setText("Batal");
         tbBatal.addActionListener(new java.awt.event.ActionListener() {
@@ -243,7 +243,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
         });
         getContentPane().add(tbBatal, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, 100, 40));
 
-        tbKeluar.setBackground(new java.awt.Color(0, 153, 102));
+        tbKeluar.setBackground(new java.awt.Color(255, 255, 255));
         tbKeluar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         tbKeluar.setText("Keluar");
         tbKeluar.addActionListener(new java.awt.event.ActionListener() {
