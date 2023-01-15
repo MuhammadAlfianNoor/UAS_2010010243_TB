@@ -123,13 +123,14 @@ public class profilmahasiswa extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTable2);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Aplikasi Pofil Mahasiswa (Input KRS)");
+        setTitle("Aplikasi Profil Mahasiswa");
+        setBackground(new java.awt.Color(102, 102, 255));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel1.setText("Pofil Mahasiswa");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, 220, -1));
+        jLabel1.setText("Profil Mahasiswa");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 220, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("NPM");
@@ -189,7 +190,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
         });
         jScrollPane3.setViewportView(tabelMahasiswa);
 
-        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 420, 810, 148));
+        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 810, 148));
 
         tbTambah.setBackground(new java.awt.Color(0, 51, 51));
         tbTambah.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -199,7 +200,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 tbTambahActionPerformed(evt);
             }
         });
-        getContentPane().add(tbTambah, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 333, -1, -1));
+        getContentPane().add(tbTambah, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 270, -1, -1));
 
         tbSimpan.setBackground(new java.awt.Color(0, 153, 51));
         tbSimpan.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -209,7 +210,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 tbSimpanActionPerformed(evt);
             }
         });
-        getContentPane().add(tbSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 330, 87, -1));
+        getContentPane().add(tbSimpan, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 110, 40));
 
         tbEdit.setBackground(new java.awt.Color(0, 255, 51));
         tbEdit.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -219,7 +220,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 tbEditActionPerformed(evt);
             }
         });
-        getContentPane().add(tbEdit, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 330, 70, -1));
+        getContentPane().add(tbEdit, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 320, 110, 40));
 
         tbHapus.setBackground(new java.awt.Color(204, 255, 0));
         tbHapus.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -230,7 +231,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 tbHapusActionPerformed(evt);
             }
         });
-        getContentPane().add(tbHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 330, -1, -1));
+        getContentPane().add(tbHapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, 100, 40));
 
         tbBatal.setBackground(new java.awt.Color(255, 255, 0));
         tbBatal.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -240,7 +241,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 tbBatalActionPerformed(evt);
             }
         });
-        getContentPane().add(tbBatal, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 330, -1, -1));
+        getContentPane().add(tbBatal, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, 100, 40));
 
         tbKeluar.setBackground(new java.awt.Color(0, 153, 102));
         tbKeluar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -250,7 +251,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 tbKeluarActionPerformed(evt);
             }
         });
-        getContentPane().add(tbKeluar, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 330, 92, -1));
+        getContentPane().add(tbKeluar, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 320, 120, 40));
 
         btInput.setBackground(new java.awt.Color(204, 255, 51));
         btInput.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -260,7 +261,7 @@ public class profilmahasiswa extends javax.swing.JFrame {
                 btInputActionPerformed(evt);
             }
         });
-        getContentPane().add(btInput, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 263, 180, 40));
+        getContentPane().add(btInput, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 260, 180, 40));
 
         pack();
         setLocationRelativeTo(null);
